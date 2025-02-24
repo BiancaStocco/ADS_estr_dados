@@ -60,8 +60,8 @@ public class Aula2_Exerc2 {
      */
     public static int[] generateReverseArray(int size) {
         int[] arr = new int[size];
-        for (int i = 0; i > size; i++) {
-            arr[i] = i;  // Sequência decrescente
+        for (int i = 0; i < size; i++) {
+            arr[i] = size - i - 1;  // Sequência decrescente
         }
         return arr;
     }
